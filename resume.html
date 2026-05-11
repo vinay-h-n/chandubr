@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Chandu B.R</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">CHANDU<span class="gradient-text">.B.R</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="education.html" class="nav-link">Education</a></li>
+                <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+                <li><a href="resume.html" class="nav-link active">Resume</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header style="padding-top: 140px; text-align: center;">
+        <div class="container">
+            <h1 class="gradient-text reveal">Curriculum Vitae</h1>
+            <p class="reveal" style="color: var(--text-secondary); max-width: 700px; margin: 0 auto; margin-bottom: 2rem;">A comprehensive overview of my professional experience and technical skills.</p>
+            <div class="reveal">
+                <a href="assets/resume.pdf" class="btn btn-primary" download><i class="fas fa-download"></i> Download PDF</a>
+                <button onclick="window.print()" class="btn btn-outline" style="margin-left: 1rem;"><i class="fas fa-print"></i> Print Resume</button>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="reveal" style="background: var(--surface-color); border-radius: 16px; border: 1px solid var(--border-color); overflow: hidden; height: 1100px; box-shadow: 0 0 50px rgba(0,0,0,0.5);">
+                <iframe src="assets/resume.pdf" width="100%" height="100%" style="border: none;"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>CHANDU.B.R</h3>
+                    <p style="color: var(--text-secondary);">Aspiring AI/ML Engineer dedicated to building intelligent systems.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul style="color: var(--text-secondary);">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Chandu B.R. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

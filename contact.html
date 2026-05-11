@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Chandu B.R</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">CHANDU<span class="gradient-text">.B.R</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="education.html" class="nav-link">Education</a></li>
+                <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header style="padding-top: 140px; text-align: center;">
+        <div class="container">
+            <h1 class="gradient-text reveal">Get In Touch</h1>
+            <p class="reveal" style="color: var(--text-secondary); max-width: 700px; margin: 0 auto;">I'm currently looking for new opportunities and would love to hear from you.</p>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem;">
+                <!-- Contact Info -->
+                <div class="reveal">
+                    <h2 class="gradient-text" style="margin-bottom: 2rem;">Contact Information</h2>
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <div style="display: flex; gap: 1.5rem; align-items: center;">
+                            <div style="font-size: 1.5rem; color: var(--primary-accent); width: 50px; height: 50px; background: rgba(56,189,248,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 0.2rem;">Email</h4>
+                                <p style="color: var(--text-secondary);">chandu123@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <div style="display: flex; gap: 1.5rem; align-items: center;">
+                            <div style="font-size: 1.5rem; color: var(--primary-accent); width: 50px; height: 50px; background: rgba(56,189,248,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 0.2rem;">Phone</h4>
+                                <p style="color: var(--text-secondary);">+91 8867083194</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <div style="display: flex; gap: 1.5rem; align-items: center;">
+                            <div style="font-size: 1.5rem; color: var(--primary-accent); width: 50px; height: 50px; background: rgba(56,189,248,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 0.2rem;">Location</h4>
+                                <p style="color: var(--text-secondary);">Tiptur, Karnataka, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+                        <a href="https://github.com/chandu-c-dev" target="_blank" class="btn btn-outline" style="flex: 1; border-radius: 12px;"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://linkedin.com/in/chandu-c" target="_blank" class="btn btn-outline" style="flex: 1; border-radius: 12px;"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="reveal">
+                    <form id="contact-form" class="card" style="padding: 3rem;">
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="name" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary);">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name" style="width: 100%; padding: 0.75rem 1rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="email" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary);">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com" style="width: 100%; padding: 0.75rem 1rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="subject" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary);">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Inquiry about..." style="width: 100%; padding: 0.75rem 1rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div style="margin-bottom: 2rem;">
+                            <label for="message" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary);">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="How can I help you?" style="width: 100%; padding: 0.75rem 1rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary); resize: vertical;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 1rem;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Chandu B.R. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
